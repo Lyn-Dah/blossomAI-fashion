@@ -213,6 +213,16 @@ const fashionItems = [
 function FashionGallery() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [selectedImage, setSelectedImage] = useState(null);
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+    setIsOpen(true);
+  };
+
+  const handleClose = () => {
+    setIsOpen(false);
+  };
 
   return (
     <section id="gallery">
@@ -231,36 +241,71 @@ function FashionGallery() {
               className="w-full rounded-lg shadow-lg"
             />
           </div>
-          <h2 className="text-3xl font-semibold mt-4">{selectedItem.title}</h2>
+          <h2 className="text-3xl font-semibold mt-4">
+            {selectedItem.title}
+          </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {selectedItem.images.map((image) => (
-              <div key={(cpl2)} className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-200">
+              <div
+                key={(cpl2)}
+                className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
+              >
                 <img
                   src={image.url}
                   alt={selectedItem.title}
                   className="w-full rounded-lg"
-                  onClick={() => setSelectedImage(image.url)}
+                  onClick={() => handleImageClick(image.url)}
                 />
               </div>
             ))}
           </div>
+          <button
+            onClick={() => setSelectedItem(null)}
+            className="bg-green-900 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-200 transition duration-200"
+          >
+            Back to Gallery
+          </button>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          {fashionItems.map((item , index) => (
-  <div key={index} className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-200">
-    <img src={item.imageUrl} alt={item.title} className="w-full rounded-lg" />
-    <h3 className="text-xl font-semibold mt-2">{item.title}</h3>
-    <button
-      onClick={() => setSelectedItem(item)}
-      className="bg-green-950 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-300 transition duration-200"
-    >
-      View Styles
-    </button>
-  </div>
-))}
+          {fashionItems.map((item, index) => (
+            <div
+              key={index}
+              className="border p-4 rounded-lg shadow-lg hover:shadow-xl transition duration-200"
+            >
+              <img
+                src={item.imageUrl}
+                alt={item.title}
+                className="w-full rounded-lg"
+                onClick={() => setSelectedItem(item)}
+              />
+              <h3 className="text-xl font-semibold mt-2">
+                {item.title}
+              </h3>
+              <button
+                onClick={() => setSelectedItem(item)}
+                className="bg-green-950 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-300 transition duration-200"
+              >
+                View Styles
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
 
-          
+      {isOpen && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-50 flex items-center justify-center">
+          <img
+            src={selectedImage}
+            alt="Selected Image"
+            className="max-w-md max-h-md rounded-lg shadow-lg"
+          />
+          <button
+            onClick={handleClose}
+            className="absolute top-4 right-4 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700 transition duration-200"
+          >
+            Close
+          </button>
         </div>
       )}
     </section>
