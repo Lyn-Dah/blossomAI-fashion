@@ -79,6 +79,76 @@ import csl12 from './assets/images/csl12.jpeg';
 import csl13 from './assets/images/csl13.jpeg';
 import csl14 from './assets/images/csl14.jpeg';
 import csl15 from './assets/images/csl15.jpeg';
+import cpl16 from './assets/images/cpl16.jpg';
+import cpl17 from './assets/images/cpl17.jpg';
+import cpl18 from './assets/images/cpl18.jpg';
+import cpl19 from './assets/images/cpl19.jpg';
+import cpl20 from './assets/images/cpl20.jpg';
+import cpl21 from './assets/images/cpl21.jpg';
+import cpl22 from './assets/images/cpl22.jpg';
+import cpl23 from './assets/images/cpl23.jpg';
+import cpl24 from './assets/images/cpl24.jpg';
+import cpl25 from './assets/images/cpl25.jpg';
+import cpl26 from './assets/images/cpl26.jpg';
+import cpl27 from './assets/images/cpl27.jpg';
+import cpl28 from './assets/images/cpl28.jpg';
+import cpl29 from './assets/images/cpl29.jpg';
+import cpl30 from './assets/images/cpl30.jpg';
+import cpl31 from './assets/images/cpl31.jpg';
+import cpl32 from './assets/images/cpl32.jpg';
+import cpl33 from './assets/images/cpl33.jpg';
+import cpl34 from './assets/images/cpl34.jpg';
+import cpl35 from './assets/images/cpl35.jpg';
+import cpl36 from './assets/images/cpl36.jpg';
+import cpl37 from './assets/images/cpl37.jpg';
+import cpl38 from './assets/images/cpl38.jpg';
+import cpl39 from './assets/images/cpl39.jpg';
+import cpl40 from './assets/images/cpl40.jpg';
+import cpl41 from './assets/images/cpl41.jpg';
+import cpl42 from './assets/images/cpl42.jpg';
+import cpl43 from './assets/images/cpl43.jpg';
+import cpl44 from './assets/images/cpl44.jpg';
+import cpl45 from './assets/images/cpl45.jpg';
+import cpl46 from './assets/images/cpl46.jpg';
+import cpl47 from './assets/images/cpl47.jpg';
+import cpl48 from './assets/images/cpl48.jpg';
+import cpl49 from './assets/images/cpl49.jpg';
+import cpl50 from './assets/images/cpl50.jpg';
+import gown16 from './assets/images/gown16.jpg';
+import gown17 from './assets/images/gown17.jpg';
+import gown18 from './assets/images/gown18.jpg';
+import gown19 from './assets/images/gown19.jpg';
+import gown20 from './assets/images/gown20.jpg';
+import gown21 from './assets/images/gown21.jpg';
+import gown22 from './assets/images/gown22.jpg';
+import gown23 from './assets/images/gown23.jpg';
+import gown24 from './assets/images/gown24.jpg';
+import gown25 from './assets/images/gown25.jpg';
+import gown26 from './assets/images/gown26.jpg';
+import gown27 from './assets/images/gown27.jpg';
+import gown28 from './assets/images/gown28.jpg';
+import gown29 from './assets/images/gown29.jpg';
+import gown30 from './assets/images/gown30.jpg';
+import gown31 from './assets/images/gown31.jpg';
+import gown32 from './assets/images/gown32.jpg';
+import gown33 from './assets/images/gown33.jpg';
+import gown34 from './assets/images/gown34.jpg';
+import gown35 from './assets/images/gown35.jpg';
+import gown36 from './assets/images/gown36.jpg';
+import gown37 from './assets/images/gown37.jpg';
+import gown38 from './assets/images/gown38.jpg';
+import gown39 from './assets/images/gown39.jpg';
+import gown40 from './assets/images/gown40.jpg';
+import gown41 from './assets/images/gown41.jpg';
+import gown42 from './assets/images/gown42.jpg';
+import gown43 from './assets/images/gown43.jpg';
+import gown44 from './assets/images/gown44.jpg';
+import gown45 from './assets/images/gown45.jpg';
+import gown46 from './assets/images/gown46.jpg';
+import gown47 from './assets/images/gown47.jpg';
+import gown48 from './assets/images/gown48.jpg';
+import gown49 from './assets/images/gown49.jpg';
+import gown50 from './assets/images/gown50.jpg';
 
 
 const fashionItems = [
@@ -102,7 +172,43 @@ const fashionItems = [
       { id: 12, url: cpl13 },
       { id: 13, url: cpl14 },
       { id: 14, url: cpl15 },
-      
+      { id: 15, url: cpl16 },
+      { id: 16, url: cpl17 },
+      { id: 17, url: cpl18 },
+      { id: 18, url: cpl19 },
+      { id: 19, url: cpl20 },
+      { id: 20, url: cpl21 },
+      { id: 21, url: cpl22 },
+      { id: 22, url: cpl23 },
+      { id: 23, url: cpl24 },
+      { id: 24, url: cpl25 },
+      { id: 25, url: cpl26 },
+      { id: 26, url: cpl27 },
+      { id: 27, url: cpl28 },
+      { id: 28, url: cpl29 },
+      { id: 29, url: cpl30 },
+      { id: 30, url: cpl31 },
+      { id: 31, url: cpl32 },
+      { id: 32, url: cpl33 },
+      { id: 33, url: cpl34 },
+      { id: 34, url: cpl35 },
+      { id: 35, url: cpl36 },
+      { id: 36, url: cpl37 },
+      { id: 37, url: cpl38 },
+      { id: 38, url: cpl39 },
+      { id: 39, url: cpl40 },
+      { id: 40, url: cpl41 },
+      { id: 41, url: cpl42 },
+      { id: 42, url: cpl43 },
+      { id: 43, url: cpl44 },
+      { id: 44, url: cpl45 },
+      { id: 45, url: cpl46 },
+      { id: 46, url: cpl47 },
+      { id: 47, url: cpl48 },
+      { id: 48, url: cpl49 },
+      { id: 49, url: cpl50 },
+
+
     ],
   },
   {
@@ -126,6 +232,61 @@ const fashionItems = [
       { id: 13, url: gown13 },
       { id: 14, url: gown14 },
       { id: 15, url: gown15 },
+      { id: 16, url: gown16 }, 
+      { id: 17, url: gown17 },
+      { id: 18, url: gown18 },
+      { id: 19, url: gown19 },
+      { id: 20, url: gown20 },
+      { id: 21, url: gown21 },
+      { id: 22, url: gown22 },
+      { id: 23, url: gown23 },
+      { id: 24, url: gown24 },
+      { id: 25, url: gown25 },
+      { id: 26, url: gown26 },
+      { id: 27, url: gown27 },
+      { id: 28, url: gown28 },
+      { id: 29, url: gown29 },
+      { id: 30, url: gown30 },
+      { id: 31, url: gown31 },
+      { id: 32, url: gown32 },
+      { id: 33, url: gown33 },
+      { id: 34, url: gown34 },
+      { id: 35, url: gown35 },
+      { id: 36, url: gown36 },
+      { id: 37, url: gown37 },
+      { id: 38, url: gown38 },
+      { id: 39, url: gown39 },
+      { id: 40, url: gown40 },
+      { id: 41, url: gown41 },
+      { id: 42, url: gown42 },
+      { id: 43, url: gown43 },
+      { id: 44, url: gown44 },
+      { id: 45, url: gown45 },
+      { id: 46, url: gown46 },
+      { id: 47, url: gown47 },
+      { id: 48, url: gown48 },
+      { id: 49, url: gown49 },
+      { id: 50, url: gown50},
+      
+       
+      
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ],
   },
   {
