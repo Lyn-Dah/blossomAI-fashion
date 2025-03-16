@@ -25,7 +25,7 @@ const images = [
   { image: hero10, alt: 'Fashion Style 4' },
 ];
 
-function LandingPage() {
+function HeroSection() {
   return (
     <section id="home" className="LandingPage relative ">
       <Carousel
@@ -64,5 +64,5 @@ function LandingPage() {
   );
 }
 
-export default LandingPage;
+export default HeroSection;
 

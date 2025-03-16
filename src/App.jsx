@@ -1,6 +1,7 @@
 import React from 'react';
+import { Routes, Route } from "react-router-dom";  // ❌ Removed extra Router
 import './App.css';
-import LandingPage from './LandingPage';
+import HeroSection from './HeroSection';
 import FashionGallery from './FashionGallery';
 import Footer from './Footer';
 import Header from './Header';
@@ -11,16 +12,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <LandingPage />
+      <HeroSection />
       <main className="p-8">
         <FashionGallery />
+        <Blog />
+        <ContactForm />
+        <Footer />
       </main>
-      <Blog />
-      <ContactForm />
-      <Footer />
+    
+      
     </div>
   );
-  
 }
 
 export default App;
+

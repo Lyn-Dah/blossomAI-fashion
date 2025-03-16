@@ -391,7 +391,7 @@ function FashionGallery() {
         <div className="text-center">
           <button
             onClick={() => setSelectedItem(null)}
-            className="bg-green-900 text-white py-2 px-4 rounded mb-4 hover:bg-yellow-200 transition duration-200"
+            className="bg-green-900 text-white py-2 px-4 rounded mb-4 hover:bg-gray-600 transition duration-200"
           >
             Back to Gallery
           </button>
@@ -422,7 +422,7 @@ function FashionGallery() {
           </div>
           <button
             onClick={() => setSelectedItem(null)}
-            className="bg-green-900 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-200 transition duration-200"
+            className="bg-green-900 text-white py-2 px-4 rounded mt-4 hover:bg-gray-600 transition duration-200"
           >
             Back to Gallery
           </button>
@@ -445,7 +445,7 @@ function FashionGallery() {
               </h3>
               <button
                 onClick={() => setSelectedItem(item)}
-                className="bg-green-950 text-white py-2 px-4 rounded mt-4 hover:bg-yellow-300 transition duration-200"
+                className="bg-green-950 text-white py-2 px-4 rounded mt-4 hover:bg-gray-600 transition duration-200"
               >
                 View Styles
               </button>
@@ -463,7 +463,7 @@ function FashionGallery() {
           />
           <button
             onClick={handleClose}
-            className="absolute top-4 right-4 bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700 transition duration-200"
+            className="absolute top-4 right-4 bg-green-950 text-white py-2 px-4 rounded hover:bg-red-700 transition duration-200"
           >
             Close
           </button>
@@ -474,3 +474,5 @@ function FashionGallery() {
 }
 
 export default FashionGallery;
+
+
