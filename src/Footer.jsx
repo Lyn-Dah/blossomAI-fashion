@@ -47,7 +47,7 @@ export default function Footer() {
           {/* Social Media Icons */}
           <div className="flex justify-center md:justify-start space-x-4 mt-4">
             {[ 
-              { icon: FaFacebookF, link: "https://facebook.com", color: "hover:text-blue-500" },
+              { icon: FaFacebookF, link: "https://web.facebook.com/share/g/16D9mJWwFi/", color: "hover:text-blue-500" },
               { icon: FaTwitter, link: "https://twitter.com", color: "hover:text-black" },
               { icon: FaInstagram, link: "https://instagram.com", color: "hover:text-pink-500" },
               { icon: FaLinkedin, link: "https://linkedin.com", color: "hover:text-black" }

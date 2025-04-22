@@ -13,6 +13,75 @@ import lds7 from './assets/images/lds7.jpg';
 import lds8 from './assets/images/lds8.jpg';
 import lds9 from './assets/images/lds9.jpg';
 import lds10 from './assets/images/lds10.jpg';
+import lds11 from './assets/images/lds11.jpg';
+import lds12 from './assets/images/lds12.jpg';
+import lds13 from './assets/images/lds13.jpg';
+import lds14 from './assets/images/lds14.jpg';
+import lds15 from './assets/images/lds15.jpg';
+import lds16 from './assets/images/lds16.jpg';
+import lds17 from './assets/images/lds17.jpg';
+import lds18 from './assets/images/lds18.jpg';
+import lds19 from './assets/images/lds19.jpg';
+import lds20 from './assets/images/lds20.jpg';
+import lds21 from './assets/images/lds21.jpg';
+import lds22 from './assets/images/lds22.jpg';
+import lds23 from './assets/images/lds23.jpg';
+import lds24 from './assets/images/lds24.jpg';
+import lds25 from './assets/images/lds25.jpg';
+import lds26 from './assets/images/lds26.jpg';
+import lds27 from './assets/images/lds27.jpg';
+import lds28 from './assets/images/lds28.jpg';
+import lds29 from './assets/images/lds29.jpg';
+import lds30 from './assets/images/lds30.jpg';
+import lds31 from './assets/images/lds31.jpg';
+import lds32 from './assets/images/lds32.jpg';
+import lds33 from './assets/images/lds33.jpg';
+import lds34 from './assets/images/lds34.jpg';
+import lds35 from './assets/images/lds35.jpg';
+import lds36 from './assets/images/lds36.jpg';
+import lds37 from './assets/images/lds37.jpg';
+import lds38 from './assets/images/lds38.jpg';
+import lds39 from './assets/images/lds39.jpg';
+import lds40 from './assets/images/lds40.jpg';
+import lds41 from './assets/images/lds41.jpg';
+import lds42 from './assets/images/lds42.jpg';
+import lds43 from './assets/images/lds43.jpg';
+import lds44 from './assets/images/lds44.jpg';
+import lds45 from './assets/images/lds45.jpg';
+import lds46 from './assets/images/lds46.jpg';
+import lds47 from './assets/images/lds47.jpg';
+import lds48 from './assets/images/lds48.jpg';
+import lds49 from './assets/images/lds49.jpg';
+import lds50 from './assets/images/lds50.jpg';
+import lds51 from './assets/images/lds51.jpg';
+import lds52 from './assets/images/lds52.jpg';
+import lds53 from './assets/images/lds53.jpg';
+import lds54 from './assets/images/lds54.jpg';
+import lds55 from './assets/images/lds55.jpg';
+import lds56 from './assets/images/lds56.jpg';
+import lds57 from './assets/images/lds57.jpg';
+import lds58 from './assets/images/lds58.jpg';
+import lds59 from './assets/images/lds59.jpg';
+import lds60 from './assets/images/lds60.jpg';
+import lds61 from './assets/images/lds61.jpg';
+import lds62 from './assets/images/lds62.jpg';
+import lds63 from './assets/images/lds63.jpg';
+import lds64 from './assets/images/lds64.jpg';
+import lds65 from './assets/images/lds65.jpg';
+import lds66 from './assets/images/lds66.jpg';
+import lds67 from './assets/images/lds67.jpg';
+import lds68 from './assets/images/lds68.jpg';
+import lds69 from './assets/images/lds69.jpg';
+import lds70 from './assets/images/lds70.jpg';
+import lds71 from './assets/images/lds71.jpg';
+import lds72 from './assets/images/lds72.jpg';
+import lds73 from './assets/images/lds73.jpg';
+import lds74 from './assets/images/lds74.jpg';
+import lds75 from './assets/images/lds75.jpg';
+
+
+
+
 import mns2 from './assets/images/mns2.jpg';
 import mns3 from './assets/images/mns3.jpg';
 import mns4 from './assets/images/mns4.jpg';
@@ -149,6 +218,77 @@ import gown47 from './assets/images/gown47.jpg';
 import gown48 from './assets/images/gown48.jpg';
 import gown49 from './assets/images/gown49.jpg';
 import gown50 from './assets/images/gown50.jpg';
+import gown51 from './assets/images/gown51.jpg';
+import gown52 from './assets/images/gown52.jpg';
+import gown53 from './assets/images/gown53.jpg';
+import gown54 from './assets/images/gown54.jpg'; 
+import gown55 from './assets/images/gown55.jpg';
+import gown56 from './assets/images/gown56.jpg';
+import gown57 from './assets/images/gown57.jpg';
+import gown58 from './assets/images/gown58.jpg';
+import gown59 from './assets/images/gown59.jpg';
+import gown60 from './assets/images/gown60.jpg';
+import gown61 from './assets/images/gown61.jpg';
+import gown62 from './assets/images/gown62.jpg';
+import gown63 from './assets/images/gown63.jpg';
+import gown64 from './assets/images/gown64.jpg';
+import gown65 from './assets/images/gown65.jpg';
+import gown66 from './assets/images/gown66.jpg';
+import gown67 from './assets/images/gown67.jpg';
+import gown68 from './assets/images/gown68.jpg';
+import gown69 from './assets/images/gown69.jpg';
+import gown70 from './assets/images/gown70.jpg';
+import gown71 from './assets/images/gown71.jpg';
+import gown72 from './assets/images/gown72.jpg';
+import gown73 from './assets/images/gown73.jpg';
+import gown74 from './assets/images/gown74.jpg';
+import gown75 from './assets/images/gown75.jpg';
+import gown76 from './assets/images/gown76.jpg';
+import gown77 from './assets/images/gown77.jpg';
+import gown78 from './assets/images/gown78.jpg';
+import gown79 from './assets/images/gown79.jpg';
+import gown80 from './assets/images/gown80.jpg';
+import gown81 from './assets/images/gown81.jpg';
+import gown82 from './assets/images/gown82.jpg';
+import gown83 from './assets/images/gown83.jpg';
+import gown84 from './assets/images/gown84.jpg';
+import gown85 from './assets/images/gown85.jpg';
+import gown86 from './assets/images/gown86.jpg';
+import gown87 from './assets/images/gown87.jpg';
+import gown88 from './assets/images/gown88.jpg';
+import gown89 from './assets/images/gown89.jpg';
+import gown90 from './assets/images/gown90.jpg';
+import gown91 from './assets/images/gown91.jpg';
+import gown92 from './assets/images/gown92.jpg';
+import gown93 from './assets/images/gown93.jpg';
+import gown94 from './assets/images/gown94.jpg';
+import gown95 from './assets/images/gown95.jpg';
+import gown96 from './assets/images/gown96.jpg';
+import gown97 from './assets/images/gown97.jpg';
+import gown98 from './assets/images/gown98.jpg';
+import gown99 from './assets/images/gown99.jpg';
+import gown100 from './assets/images/gown100.jpg';
+import gown101 from './assets/images/gown101.jpg';
+import gown102 from './assets/images/gown102.jpg';
+import gown103 from './assets/images/gown103.jpg';
+import gown104 from './assets/images/gown104.jpg';
+import gown105 from './assets/images/gown105.jpg';
+import gown106 from './assets/images/gown106.jpg';
+import gown107 from './assets/images/gown107.jpg';
+import gown108 from './assets/images/gown108.jpg';
+import gown109 from './assets/images/gown109.jpg';
+import gown110 from './assets/images/gown110.jpg';
+import gown111 from './assets/images/gown111.jpg';
+import gown112 from './assets/images/gown112.jpg';
+import gown113 from './assets/images/gown113.jpg';
+import gown114 from './assets/images/gown114.jpg';
+import gown115 from './assets/images/gown115.jpg';
+import gown116 from './assets/images/gown116.jpg';
+import gown117 from './assets/images/gown117.jpg';
+import gown118 from './assets/images/gown118.jpg';
+import gown119 from './assets/images/gown119.jpg';
+import gown120 from './assets/images/gown120.jpg';
+import gown121 from './assets/images/gown121.jpg';
 
 
 const fashionItems = [
@@ -267,25 +407,80 @@ const fashionItems = [
       { id: 48, url: gown48 },
       { id: 49, url: gown49 },
       { id: 50, url: gown50},
+      { id: 51, url: gown51},
+      { id: 52, url: gown52},
+      { id: 53, url: gown53},
+      { id: 54, url: gown54},
+      { id: 55, url: gown55},
+      { id: 56, url: gown56},
+      { id: 57, url: gown57},
+      { id: 58, url: gown58},
+      { id: 59, url: gown59},
+      { id: 60, url: gown60},
+      { id: 61, url: gown61},
+      { id: 62, url: gown62},
+      { id: 63, url: gown63},
+      { id: 64, url: gown64},
+      { id: 65, url: gown65},
+      { id: 66, url: gown66},
+      { id: 67, url: gown67},
+      { id: 68, url: gown68},
+      { id: 69, url: gown69},
+      { id: 70, url: gown70},
+      { id: 71, url: gown71},
+      { id: 72, url: gown72},
+      { id: 73, url: gown73},
+      { id: 74, url: gown74},
+      { id: 75, url: gown75},
+      { id: 76, url: gown76},
+      { id: 77, url: gown77},
+      { id: 78, url: gown78},
+      { id: 79, url: gown79},
+      { id: 80, url: gown80},
+      { id: 81, url: gown81},
+      { id: 82, url: gown82},
+      { id: 83, url: gown83},
+      { id: 84, url: gown84},
+      { id: 85, url: gown85},
+      { id: 86, url: gown86},
+      { id: 87, url: gown87},
+      { id: 88, url: gown88},
+      { id: 89, url: gown89},
+      { id: 90, url: gown90},
+      { id: 91, url: gown91},
+      { id: 92, url: gown92},
+      { id: 93, url: gown93},
+      { id: 94, url: gown94},
+      { id: 95, url: gown95},
+      { id: 96, url: gown96},
+      { id: 97, url: gown97},
+      { id: 98, url: gown98},
+      { id: 99, url: gown99},
+      { id: 100, url: gown100 },
+      { id: 101, url:gown101 },
+      { id: 102, url:gown102 },
+      { id: 103, url:gown103 },
+      { id: 104, url:gown104 },
+      { id: 105, url:gown105 },
+      { id: 106, url:gown106 },
+      { id: 107, url:gown107 },
+      { id: 108, url:gown108 },
+      { id: 109, url:gown109 },
+      { id: 110, url:gown110 },
+      { id: 111, url:gown111 },
+      { id: 112, url:gown112 },
+      { id: 113, url:gown113 },
+      { id: 114, url:gown114 },
+      { id: 115, url:gown115 },
+      { id: 116, url:gown116 },
+      { id: 117, url:gown117 },
+      { id: 118, url:gown118 },
+      { id: 119, url:gown119 },
+      { id: 120, url:gown120 },
+      { id: 121, url:gown121 },
       
        
-      
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     ],
   },
@@ -366,6 +561,73 @@ const fashionItems = [
       { id: 6, url: lds8 },
       { id: 7, url: lds9 },
       { id: 8, url: lds10 },
+      { id: 9, url: lds11 },
+      { id: 10, url: lds12 },
+      { id: 11, url: lds13 },
+      { id: 12, url: lds14 },
+      { id: 13, url: lds15 },
+      { id: 14, url: lds16 },
+      { id: 15, url: lds17 },
+      { id: 16, url: lds18 },
+      { id: 17, url: lds19 },
+      { id: 18, url: lds20 },
+      { id: 19, url: lds21 },
+      { id: 20, url: lds22 },
+      { id: 21, url: lds23 },
+      { id: 22, url: lds24 },
+      { id: 23, url: lds25 },
+      { id: 24, url: lds26 },
+      { id: 25, url: lds27 },
+      { id: 26, url: lds28 },
+      { id: 27, url: lds29 },
+      { id: 28, url: lds30 },
+      { id: 29, url: lds31 },
+      { id: 30, url: lds32 },
+      { id: 31, url: lds33 },
+      { id: 32, url: lds34 },
+      { id: 33, url: lds35 },
+      { id: 34, url: lds36 },
+      { id: 35, url: lds37 },
+      { id: 36, url: lds38 },
+      { id: 37, url: lds39 },
+      { id: 38, url: lds40 },
+      { id: 39, url: lds41 },
+      { id: 40, url: lds42 },
+      { id: 41, url: lds43 },
+      { id: 42, url: lds44 },
+      { id: 43, url: lds45 },
+      { id: 44, url: lds46 },
+      { id: 45, url: lds47 },
+      { id: 46, url: lds48 },
+      { id: 47, url: lds49 },
+      { id: 48, url: lds50 },
+      { id: 49, url: lds51 },
+      { id: 50, url: lds52 },
+      { id: 51, url: lds53 },
+      { id: 52, url: lds54 },
+      { id: 53, url: lds55 },
+      { id: 54, url: lds56 },
+      { id: 55, url: lds57 },
+      { id: 56, url: lds58 },
+      { id: 57, url: lds59 },
+      { id: 58, url: lds60 },
+      { id: 59, url: lds61 },
+      { id: 60, url: lds62 },
+      { id: 61, url: lds63 },
+      { id: 62, url: lds64 },
+      { id: 63, url: lds65 },
+      { id: 64, url: lds66 },
+      { id: 65, url: lds67 },
+      { id: 66, url: lds68 },
+      { id: 67, url: lds69 },
+      { id: 68, url: lds70 },
+      { id: 69, url: lds71 },
+      { id: 70, url: lds72 },
+      { id: 71, url: lds73 },
+      { id: 72, url: lds74 },
+      { id: 73, url: lds75 },
+      
+    
     ],
   },
   // ...

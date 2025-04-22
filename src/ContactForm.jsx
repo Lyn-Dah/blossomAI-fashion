@@ -101,7 +101,9 @@ function ContactForm() {
 
           {/* Social Media Icons with Hover Effects */}
           <div className="flex justify-center md:justify-start space-x-6 mt-6 sm:mt-8 text-gray-700">
-            <FaFacebookF className="text-2xl cursor-pointer hover:text-indigo-600 transition duration-300" />
+            <a href="https://web.facebook.com/share/g/16D9mJWwFi/" target="_blank" rel="noopener noreferrer">
+              <FaFacebookF className="text-2xl cursor-pointer hover:text-indigo-600 transition duration-300" />
+            </a>
             <FaInstagram className="text-2xl cursor-pointer hover:text-pink-800 transition duration-300" />
             <FaTwitter className="text-2xl cursor-pointer hover:text-black transition duration-300" />
           </div>
