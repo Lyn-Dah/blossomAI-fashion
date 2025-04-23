@@ -1,5 +1,7 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaWhatsapp, FaTiktok } from "react-icons/fa";
+
+
 
 export default function Footer() {
   return (
@@ -48,9 +50,13 @@ export default function Footer() {
           <div className="flex justify-center md:justify-start space-x-4 mt-4">
             {[ 
               { icon: FaFacebookF, link: "https://web.facebook.com/share/g/16D9mJWwFi/", color: "hover:text-blue-500" },
-              { icon: FaTwitter, link: "https://twitter.com", color: "hover:text-black" },
+              { icon: FaTiktok, link: "https://www.tiktok.com/@blossomingyou1?_t=ZM-8vklsaYOP7F&_r=1", color: "hover:text-black" },
               { icon: FaInstagram, link: "https://instagram.com", color: "hover:text-pink-500" },
-              { icon: FaLinkedin, link: "https://linkedin.com", color: "hover:text-black" }
+              { icon: FaWhatsapp, link: "https://wa.me/your-number", color: "hover:text-green-500" },
+          
+
+              
+        
             ].map((social, index) => (
               <a
                 key={index}
