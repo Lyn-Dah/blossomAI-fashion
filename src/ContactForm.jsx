@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTiktok, FaWhatsapp } from "react-icons/fa";
 import { motion } from "framer-motion"; // Import Framer Motion
 import contactImage from "./assets/images/contactus.jpg"; // Import the image
 
@@ -105,7 +105,8 @@ function ContactForm() {
               <FaFacebookF className="text-2xl cursor-pointer hover:text-indigo-600 transition duration-300" />
             </a>
             <FaInstagram className="text-2xl cursor-pointer hover:text-pink-800 transition duration-300" />
-            <FaTwitter className="text-2xl cursor-pointer hover:text-black transition duration-300" />
+            <FaTiktok className="text-2xl cursor-pointer hover:text-black transition duration-300" />
+            <FaWhatsapp className="text-2xl cursor-pointer hover:text-sky-500 transition duration-300" />
           </div>
         </motion.div>
       </motion.div>
